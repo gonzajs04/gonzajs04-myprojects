@@ -1,0 +1,20 @@
+
+JumpingTOWER- BATMANTEXTURES.png
+size: 2048, 512
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+BATMAN_ANIMACION
+  rotate: false
+  xy: 2, 2
+  size: 752, 305
+  orig: 752, 305
+  offset: 0, 0
+  index: -1
+BATMAN_SALTAR
+  rotate: false
+  xy: 756, 71
+  size: 662, 236
+  orig: 662, 236
+  offset: 0, 0
+  index: -1
