@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+}
+.container-contacto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.enviarForm{
+    text-decoration: none;
+    color: white !important;
+    border: 2px solid white;
+  
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: transparent;
+    width: 120px;
+height: 50px;
+}
+.imagen{
+    width: 100%;
+    height: 900px;
+    background-image: url(../Imagenes/fondocontacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(.4);
+
+}
+.form-contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    position: relative;
+    z-index: 100;
+  row-gap: 10px;
+  column-gap: 50px
+}
+input{
+    width: 100% ;
+    height: 30px;
+}
+.input_email{
+    grid-column: 1/3;
+}
+.input_name{
+    width: 200px;
+}
+.textArea_form{
+    grid-column: 1/3;
+    width: 100%;
+}
+#msg{
+    width: 100%;
+}
+.enviar_form{
+    grid-column: 1/3;
+ text-align: center;
+ height: 100%;
+ margin-top: 20px;
+}
+.enviarForm:hover{
+    background-color: black;
+    transition: .5s all ease;
+    border: none;
+    cursor: pointer;
+ 
+
+}
+.h3_input{
+    color: white;
+    letter-spacing: .5px;
+}
+sup{
+    color: red;
+}
+
+.error{
+   background-color: red;
+  text-align: center;
+  grid-column: 1/3;
+  padding: .5rem;
+  color: white;
+}
+.correcto{
+    background-color: rgb(74,185,0);
+    text-align: center;
+    grid-column: 1/3;
+    padding: .5rem;
+    color: rgb(249, 240, 240);
+ 
+}

@@ -1,0 +1,96 @@
+
+.secubicacion{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, whitesmoke 0%, rgb(253, 247, 236 100%));
+    justify-content: space-evenly;
+    height: 900px;
+
+
+}
+h2{
+font-family: var(--fuente);
+color: var(--negro)
+}
+p{
+    font-family: var(--fuente);
+}
+.heading-ubicacion{
+    font-size: 3rem;
+}
+.parrafo-ubicacion{
+    font-size: 1.3rem;
+    width: 600px;
+}
+.mapa-ubicacion{
+    border-radius: 8px;
+  
+    
+}
+.texto-ubicacion{
+    text-align: center;
+}
+@media(min-width:1220px){
+    
+.secubicacion{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to top, whitesmoke 0%, rgb(253, 247, 236 100%));
+    justify-content: space-evenly;
+    height: 900px;
+
+
+}
+h2{
+font-family: var(--fuente);
+color: var(--negro)
+}
+p{
+    font-family: var(--fuente);
+}
+.heading-ubicacion{
+    font-size: 3rem;
+}
+.parrafo-ubicacion{
+    font-size: 1.3rem;
+    width: 600px;
+}
+.mapa-ubicacion{
+    border-radius: 8px;
+  
+    
+}
+    
+
+}
+
+
+/*CELU*/
+@media(max-width:618px){
+    .texto-ubicacion{
+        width: 100%;
+    }
+    .parrafo-ubicacion{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .heading-ubicacion{
+        font-size: 2.5rem;
+    }
+    
+    .mapa-ubicacion iframe{
+      
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+
+
+
+

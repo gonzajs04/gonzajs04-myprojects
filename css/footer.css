@@ -1,0 +1,387 @@
+.piepag{
+    background-color: #232323;
+    height: 100%;
+   
+   
+}
+.derechos{
+    width: 100%;
+  padding-top: 20px;
+}
+
+.logof{
+    margin-top: 30px;
+}
+.logof h2{
+    color: white;
+    font-size: 2rem;
+    font-family: var(--fuente);
+}
+.contenedor-fot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.contenedor-fotg{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.redessociales{
+    color: white;
+  margin: 20px 10px 30px 0px;
+}
+.atencioncliente{
+    color: white;
+   margin: 20px 10px 30px 0px; 
+}
+.logistica{
+    color: white;
+     margin: 20px 15px 30px 0px;
+
+}
+.copy{
+    color: var(--blanco);
+    font-size: 15px;
+    font-family: var(--fuente);
+    letter-spacing: 1px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.ac{
+    font-family: var(--fuente);
+    color:white;
+    letter-spacing: .5px;
+    font-size: 1.6rem;
+    width: 100% !important;
+}
+.lista-ac a{
+    font-family: var(--fuente);
+    
+}
+.lista-ac{
+font-size: 1.1rem;
+  padding: 0;
+}
+.lista-rs{
+    font-family: var(--fuente);
+    font-size: 1.1rem;
+}
+.lista-rs{
+    font-family: var(--fuente);
+    padding: 0;
+    font-size: 1.1rem;
+}
+.lista-logistica{
+    font-family: var(--fuente);
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+.facebook:hover{
+    color: rgb(47, 47, 250) !important;
+    transition: all .5s;
+}
+.insta:hover{
+    color:rgb(246, 15, 246)!important;
+    transition: all .5s;
+}
+
+.container-enviarmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.botonmail{
+    margin-left: 3rem;
+}
+.hh5{
+    font-family: var(--fuente);
+    color: var(--blanco);
+    font-size: 1.5rem;
+    height: 20px;
+    margin: 10px 0 0 0;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    height: 40px;
+    width: 130px;
+    font-family: var(--fuente);
+    
+  }
+  
+  .mail{
+  margin: 50px 0 50px 0;
+    height: 70px;
+    width: 250px;
+    font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .15rem;
+
+  }
+
+  .mail:focus{
+    transition: border-color .30s ease-in-out,box-shadow .30s ease-in-out;
+    border: 1px solid  #007bff;
+    border-radius: .15rem;
+
+
+  }
+  .btn-success:hover {
+    color: #fff;
+    background-color: #3bb73b;
+    border-color: #3bb73b;
+    height: 40px;
+    width: 130px;
+  }
+  .linea-divisorag{
+    color: white;
+    width: 1000px;
+    opacity: .4;
+    
+  }
+
+  .linea-divisorag2{
+    color: white;
+    width: 500px;
+    opacity: .4;
+    
+  }
+
+  .enviarMail{
+    width: 90px;
+    height: 50px;
+    background-color: #4cae4c;
+    border: none;
+    color: white;
+    border-radius: 7px;
+  }
+  .enviarMail:hover{
+    cursor: pointer;
+    background-color: #127d12;
+    transition: all .5s;
+  }
+  .enviarMail_a{
+    display: block;
+    width: 90px;
+    height: 50px;
+  }
+
+/*PC*/
+  @media(min-width:1019px){
+      
+
+
+    .piepag{
+        background-color: #232323;
+        height: 800px;
+       
+       
+    }
+    
+    .logof{
+        margin-top: 30px;
+    }
+    .logof h2{
+        color: white;
+        font-size: 2rem;
+        font-family: var(--fuente);
+    }
+    .contenedor-fot{
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor-fotg{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .contenido-foot{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .redessociales{
+        color: white;
+      margin: 20px 10px 30px 200px; 
+    }
+    .atencioncliente{
+        color: white;
+       margin: 20px 10px 30px 200px; 
+    }
+    .logistica{
+        color: white;
+         margin: 20px 200px 30px 200px;
+    
+    }
+    .copy{
+        color: var(--blanco);
+        font-size: 18px;
+        font-family: var(--fuente);
+        letter-spacing: 1px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    .ac{
+        font-family: var(--fuente);
+        color:white;
+        letter-spacing: .5px;
+        font-size: 1.6rem;
+        width: 200px !important;
+    }
+    .lista-ac a{
+        font-family: var(--fuente);
+        
+    }
+    .lista-ac{
+    font-size: 1.1rem;
+      padding: 0;
+    }
+    .lista-rs{
+        font-family: var(--fuente);
+        font-size: 1.1rem;
+    }
+    .lista-rs{
+        font-family: var(--fuente);
+        padding: 0;
+        font-size: 1.1rem;
+    }
+    .lista-logistica{
+        font-family: var(--fuente);
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    
+    .facebook:hover{
+        color: rgb(47, 47, 250) !important;
+        transition: all .5s;
+    }
+    .insta:hover{
+        color:rgb(246, 15, 246)!important;
+        transition: all .5s;
+    }
+    
+    .container-enviarmail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .botonmail{
+        margin-left: 3rem;
+    }
+    .hh5{
+        font-family: var(--fuente);
+        color: var(--blanco);
+        font-size: 1.5rem;
+        height: 20px;
+    }
+    .btn-success {
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+        height: 40px;
+        width: 130px;
+        font-family: var(--fuente);
+        
+      }
+      
+      .mail{
+      margin-bottom: 50px;
+        height: 30px;
+        width: 400px;
+        font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .15rem;
+    
+      }
+    
+      .mail:focus{
+        transition: border-color .30s ease-in-out,box-shadow .30s ease-in-out;
+        border: 1px solid  #007bff;
+        border-radius: .15rem;
+    
+    
+      }
+      .btn-success:hover {
+        color: #fff;
+        background-color: #3bb73b;
+        border-color: #3bb73b;
+        height: 40px;
+        width: 130px;
+      }
+      .linea-divisorag{
+        color: white;
+        width: 1000px;
+        opacity: .4;
+        
+      }
+    
+      .linea-divisorag2{
+        color: white;
+        width: 500px;
+        opacity: .4;
+        
+      }
+    
+      .enviarMail{
+        width: 90px;
+        height: 50px;
+        background-color: #4cae4c;
+        border: none;
+        color: white;
+        border-radius: 7px;
+      }
+      .enviarMail:hover{
+        cursor: pointer;
+        background-color: #127d12;
+        transition: all .5s;
+      }
+      .enviarMail_a{
+        display: block;
+        width: 90px;
+        height: 50px;
+      }
+  
+  }
+  
+

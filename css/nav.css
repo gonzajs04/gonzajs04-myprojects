@@ -1,0 +1,696 @@
+/*EMPIEZA TABLET*/
+
+
+#btn{
+    visibility: hidden;
+}
+.container-nav{
+    position: absolute;
+    display: flex;
+   width: 100%;
+    flex-direction: column;
+    width: 100%;
+    height: 670px;
+     
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    height: 760px;
+    padding: 2px 20px 0px 20px;
+ 
+
+
+}
+
+
+
+.containerg-nav{
+ 
+    height: 100%;
+    width: 100%;
+    
+}
+
+.logo h1{
+    color: rgb(252, 240, 240);
+    font-size: 4.3rem;
+    cursor:default;
+    letter-spacing: 3px;
+    width: 100%;
+ 
+    
+}
+/*SACO LA FLECHA*/
+.center-con{
+    display: none;
+}
+
+.logo{
+  
+   visibility: visible;
+    width: 100%;
+    height: 135px;
+    text-align: center;
+
+    
+   
+  
+}
+.navegacion a{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(252, 240, 240);
+    font-family: var(--fuente);
+    font-size: 1.7rem;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    
+}
+.navegacion{
+    margin-left: 1rem;
+}
+
+.navegacion a:hover{
+    
+    transition: all .9s ease;
+    text-decoration: overline;
+    font-size: 1.9rem;
+    padding: 8px;
+   
+  
+    padding-bottom: 10px;
+}
+
+.presentacion{
+   
+    background-image: url(../Imagenes/FONDOPRESENTACION.png);
+    height: 800px;
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+    ;
+   
+    filter: brightness(.8);
+    background-attachment: fixed;
+    
+
+}
+
+/*FLECHA ANIMACION*/
+
+.center-con{
+    margin-top: 20px;
+}
+
+.round {
+    position: relative;
+   
+    width: 100px;
+    height: 120px;
+}
+
+.animacionspan {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: white;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+.animacionspan:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+   
+}
+
+.animacionspan:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+    background: rgb(247, 165, 179);
+}
+
+
+.round:hover .animacionspan:nth-child(2) {
+    transform: rotate(200deg);
+    background: rgb(247, 165, 179);
+}
+
+.round:hover .animacionspan:nth-child(3) {
+    transform: rotate(225deg);
+    background: rgb(247, 165, 179);
+}
+
+.round:hover .animacionspan:nth-child(4) {
+    transform: rotate(-225deg);
+    background:white;
+}
+
+
+/*CELULAR*/
+
+.sidebar{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+ background-color: #b9bac0a0;
+ width: 70px;
+ height: 800px;
+ padding: 6px 14px;
+}
+
+.sidebar.active{
+    width: 100%;
+    transform: translateX(0%);
+     transition: all .5s ease;
+}    
+
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+   margin-top: 50px;
+    
+}
+
+
+
+
+.logo_name{
+    width:150px;
+    height: 50px;
+
+}
+
+
+.sidebar .logo_content .logo_bar .logo_name h2{
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 26px;
+}
+.logo_bar i{
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+.logo_bar #btn{
+    position: absolute;
+    
+    left: 38px;
+    top: 16.3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transform: translateX(-50%);
+    line-height: 50px;
+}
+.logo_bar #btn:hover{
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+.ul_content li a{
+    font-size: 20px;
+    padding-top: 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+    padding-left: 5px;
+}
+.ul_content li a:hover{
+    color: #fff;
+    background-color:  rgba(189, 189, 189, 0.771);
+
+    border-radius: 20px;
+}
+
+
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+}
+
+
+/*PERFIL*/
+.profile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-right: 70px;
+bottom: 2px;
+left: 1px;
+background-color: #6e6e6e88;
+}
+.profile_profession p{
+margin: 0 20px;
+    color: rgb(237, 236, 236);
+    font-size: 17px;
+}
+
+.profile_name p{
+    margin: 0;
+    
+    font-size: 20px;
+    color: rgb(237, 236, 236);
+}
+
+.profile_img{
+    width: 70px;
+    height: 70px;
+   
+}
+.profile_data{
+  height: 100px;
+  padding-top: 25px;
+
+
+}
+.profile_img img{
+    border-radius: 50px;
+}
+/*ACTIVE SIDEBAR*/
+.tooltip{
+    position: absolute;
+    font-size: 18px;
+    font-family: var(--fuente);
+   background-color: rgba(255, 255, 255, 0.841);
+   width: 122px;
+   left: 70px;
+   top: -20px;
+   text-align: center;
+   height: 35px;
+   line-height: 35px;
+   border-radius: 14px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+   transition: .5s ease;
+   opacity: 0;
+
+}
+.ul_content li:hover .tooltip{
+    top: 0;
+    opacity: 1;
+}
+
+
+
+
+@media(min-width:1128px){ /*EMPIEZA PC*/
+
+    .logo_bar #btn:hover{
+
+        cursor: pointer;
+    }
+    
+.container-nav{
+    position: absolute;
+    display: flex;
+   width: 100%;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+     
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    height: 760px;
+    padding: 2px 20px 0px 20px;
+ 
+
+
+}
+
+
+
+.containerg-nav{
+ 
+    height: 100%;
+    width: 100%;
+    
+}
+
+.logo h1{
+    color: rgb(252, 240, 240);
+    font-size: 5.6rem;
+    cursor:default;
+    letter-spacing: 3px;
+ 
+    
+}
+
+.logo{
+  
+   
+    width: 100%;
+    height: 135px;
+    text-align: center;
+
+    visibility: visible;
+
+   
+  
+}
+.navegacion a{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(252, 240, 240);
+    font-family: var(--fuente);
+    font-size: 1.7rem;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    
+}
+.navegacion{
+    margin-left: 1rem;
+}
+
+.navegacion a:hover{
+    
+    transition: all .9s ease;
+    text-decoration: overline;
+    font-size: 1.9rem;
+    padding: 8px;
+   
+  
+    padding-bottom: 10px;
+}
+
+.presentacion{
+   
+    background-image: url(../Imagenes/FONDOPRESENTACION.png);
+    height: 800px;
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    filter: brightness(.8);
+    background-attachment: fixed;
+    
+
+}
+
+
+/*FLECHA ANIMACION*/
+
+.center-con{
+    margin-top: 20px;
+}
+
+.round {
+    position: relative;
+   
+    width: 100px;
+    height: 120px;
+}
+
+.animacionspan {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: white;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+.animacionspan:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+   
+}
+
+.animacionspan:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+    background: rgb(247, 165, 179);
+}
+
+
+.round:hover .animacionspan:nth-child(2) {
+    transform: rotate(200deg);
+    background: rgb(247, 165, 179);
+}
+
+.round:hover .animacionspan:nth-child(3) {
+    transform: rotate(225deg);
+    background: rgb(247, 165, 179);
+}
+
+.round:hover .animacionspan:nth-child(4) {
+    transform: rotate(-225deg);
+    background:white;
+}
+
+
+/*CELULAR*/
+
+.sidebar{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+ background-color: #b9bac0a0;
+ width: 70px;
+ height: 800px;
+ padding: 6px 14px;
+}
+
+.sidebar.active{
+    width: 100%;
+    transform: translateX(0%);
+     transition: all .5s ease;
+}    
+
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+   margin-top: 50px;
+    
+}
+
+
+
+
+.logo_name{
+    width:150px;
+    height: 50px;
+
+}
+
+
+.sidebar .logo_content .logo_bar .logo_name h2{
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 26px;
+}
+.logo_bar i{
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+.logo_bar #btn{
+    position: absolute;
+    left: 38px;
+    top: 16.3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transform: translateX(-50%);
+    line-height: 50px;
+}
+
+
+
+
+
+
+.ul_content li a{
+    font-size: 20px;
+    padding-top: 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+    padding-left: 5px;
+}
+.ul_content li a:hover{
+    color: #fff;
+    background-color:  rgba(189, 189, 189, 0.771);
+
+    border-radius: 20px;
+}
+
+
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+}
+
+
+/*PERFIL*/
+.profile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-right: 70px;
+bottom: 2px;
+left: 1px;
+background-color: #6e6e6e88;
+}
+.profile_profession p{
+margin: 0 20px;
+    color: rgb(237, 236, 236);
+    font-size: 17px;
+}
+
+.profile_name p{
+    margin: 0;
+    
+    font-size: 20px;
+    color: rgb(237, 236, 236);
+}
+
+.profile_img{
+    width: 70px;
+    height: 70px;
+   
+}
+.profile_data{
+  height: 100px;
+  padding-top: 25px;
+
+
+}
+.profile_img img{
+    border-radius: 50px;
+}
+/*ACTIVE SIDEBAR*/
+.tooltip{
+    position: absolute;
+
+    font-size: 18px;
+    font-family: var(--fuente);
+   background-color: rgba(255, 255, 255, 0.841);
+   width: 122px;
+   left: 70px;
+   top: -20px;
+   text-align: center;
+   height: 35px;
+   line-height: 35px;
+   border-radius: 14px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+   transition: .5s ease;
+   opacity: 0;
+
+}
+.ul_content li:hover .tooltip{
+    top: 0;
+    opacity: 1;
+}
+
+
+}
+    
+
+ /*TERMINA PC*/
+
+/*EMPIEZA CELULAR*/
+@media(max-width:886px){
+
+    .logo_bar #btn:hover{
+
+        cursor: pointer;
+    }
+    .container-nav{
+      display: block;
+      margin: 100px 0 0 20px;
+    }
+    .logo{
+        visibility: hidden;
+    }
+    .sidebar.active{
+     width: 100%;
+     transform: translateX(0%);
+     transition: all .5s ease;
+      
+    }
+    .sidebar{
+        width: 70px;
+    }
+    .logo{
+        visibility: hidden;
+    }
+
+}
+
+
+

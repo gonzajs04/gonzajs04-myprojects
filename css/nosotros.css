@@ -1,0 +1,203 @@
+body{
+    background-color: white;
+    height: 100%;
+}
+
+.heading2{
+    color: #e5b295;
+    font-family: var(--fuente);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin:0;
+    height: 50px;
+}
+
+
+p{
+    font-family: var(--fuente);
+    font-size: 1.3rem;
+}
+.hh4{
+    color: white;
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+}
+.copy2{
+    color: white;
+    font-family: var(--fuente);
+    font-size: 18px; 
+    letter-spacing: 1px;
+
+}
+
+
+
+.nav-items{
+   color: #dabca7;
+   text-decoration: none;
+   font-family: var(--fuente);
+   font-size: 1.39rem;
+   padding: 7px;
+
+}
+.nav-items:hover{
+    font-size: 1.8rem;
+    text-decoration: line-through;
+    transition: .5s all;
+
+}
+.containerg-nav{
+    position: relative;
+    background-color: #f9f2ed;
+    height: 100%;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;  
+}
+.container-nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.encabezado-nosotros{
+    height: 80px;
+}
+
+
+.containerg-texto{
+   height: 600px;
+   scroll-snap-align: center;
+   scroll-snap-stop: always;  
+}
+.container-texto{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nosotros-heading{
+display: grid;
+grid-template-columns: 500px;
+grid-template-rows: 70px
+
+
+
+}
+
+.divimagen-grid{
+    grid-template-columns: 450px;
+    grid-template-rows: 400px;
+    padding-left: 30px;
+    
+    display: grid;
+   
+
+}
+.imagen-grid{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(.6);
+}
+
+.imagen-grid:hover{
+    transform: scale(1.1);
+    transition: all.5s;
+    cursor: pointer;
+    filter: brightness(1);
+    color:black;
+    
+    
+}
+/*---------- QUE VENDEMOS*/
+
+
+.productos-heading{
+    height: 80px;
+}
+
+
+.containerg-productos{
+   height: 600px;
+   background-color: whitesmoke ;
+   scroll-snap-align: center;
+   scroll-snap-stop: always;  
+}
+.container-productos{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15rem;
+}
+.productos-heading{
+display: grid;
+grid-template-columns: 500px;
+grid-template-rows: 70px;
+height: 271px;
+
+
+
+
+}
+
+.divimagen-grid2{
+    grid-template-columns: 450px;
+    grid-template-rows: 400px;
+    padding-left: 30px;
+    
+    display: grid;
+   
+
+}
+.imagen-grid2{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(.6);
+}
+
+.imagen-grid2:hover{
+    transform: scale(1.1);
+    transition: all.5s;
+    cursor: pointer;
+    filter: brightness(1);
+    color:black;
+    
+    
+}
+.container-eleccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 800px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;  
+
+
+}
+.divimagen-grid3{
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 400px;
+}
+.imagen-grid3{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    filter: brightness(.6);
+}
+.eleccion-heading{
+    display: grid;
+    grid-template-columns: 500px;
+grid-template-rows: 70px;
+height: 271px;
+
+}
+
+
+
