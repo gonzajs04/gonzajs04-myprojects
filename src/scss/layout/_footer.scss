@@ -1,0 +1,16 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.piepagina{
+    padding: 1rem 0;
+    background-color: v.$rosa;
+}
+
+.p-piepag{
+    color: v.$blanco;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}

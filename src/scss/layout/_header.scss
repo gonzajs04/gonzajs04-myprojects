@@ -1,0 +1,131 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+
+
+.header{
+
+    background-color: v.$verde;
+
+    @include m.tablet{
+
+        &.fijo{
+      
+        position:fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        box-shadow: .1rem .1rem .1rem #111;
+
+        }
+        
+    }   
+ 
+    h1{ //CELULAR
+        
+   
+
+        @include m.desktop{ //PC
+            text-align: left;
+            color: v.$blanco;
+            margin: 0;
+     
+        
+        }
+
+        @include m.tablet{
+            text-align: center;
+        color: v.$blanco;
+        margin: 2rem 0rem;
+            
+        }
+        @include m.telefono{
+            text-align: center;
+        color: v.$blanco;
+        margin: 1rem 0rem;
+            
+        }
+ //ANTES DE TELEFONO
+        text-align: center;
+        color: v.$blanco;
+        margin: 0rem 0rem;
+
+
+       
+        
+    }  
+
+   
+  
+    .container-nav{ 
+        @include m.tablet{
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+            
+        }
+
+        @include m.telefono{  //telefono
+
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+            
+        }  //termina telefono
+        @include m.desktop{ //PC
+            padding: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }//TEMRINA PC
+
+    }
+
+    //TERMINA PC
+
+
+} //TERMINA HEADER
+
+.navegacion{
+
+    a{ 
+        color: v.$blanco;
+        padding: 20px;
+        &:hover{
+            color: v.$amarillo;
+            font-size: 20px;
+            transition: all .5s;
+        }
+    }
+       
+
+           @include m.telefono{ //PC
+            a{ 
+             
+                color: v.$blanco;
+                padding: 20px;
+                &:hover{
+                    color: v.$amarillo;
+                    font-size: 20px;
+                    transition: all .5s;
+                }
+            }
+            
+           }
+      
+
+}
+// .prueba{
+//     @include m.heading;
+// }
+// .heading_inteligente{
+//     @include m.heading2(v.$blanco);
+// }

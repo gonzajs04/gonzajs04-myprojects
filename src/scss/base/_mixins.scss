@@ -1,0 +1,54 @@
+@use 'variables' as v;
+// @mixin heading{
+//     color: red;
+//     text-transform: uppercase;
+//     letter-spacing: 2px;
+//     background-color: blue;
+// }
+// @mixin heading2($color){
+//     color:$color;
+//     font-size: 15px;
+//     background-color: violet;
+// }
+
+
+//MEDIA QUERYS CON MIXINS
+
+@mixin telefono{
+    @media(min-width: v.$telefono){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media(min-width: v.$tablet){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media(min-width: v.$desktop){
+        @content;
+    }
+}
+
+@mixin desktopXL{
+    @media(min-width: v.$desktopXL){
+        @content;
+    }
+}
+
+//MIXIN PARA GRID
+
+@mixin grid($cant-cols, $espaciado){
+    display: grid;
+    grid-template-columns: repeat($cant-cols,1fr);
+    gap: $espaciado;
+}
+
+//MIXIN PARA UL
+@mixin resetearLista(){
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
