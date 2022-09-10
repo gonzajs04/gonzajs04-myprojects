@@ -1,0 +1,71 @@
+
+
+.h2_tecnologias{
+    color: #1c1c1c;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+ 
+}
+
+.tecnologias{
+    text-align: center;
+    background-color: #f1f1f1e4;
+   
+}
+
+.imagen{
+    width: 200px;
+    padding-bottom: 50px;
+
+    border-radius: 20px;
+
+}
+.js-logo{
+    border-radius: 20px;
+}
+
+.gulp{
+    width: 150px;
+}
+
+
+
+
+
+/*PC*/
+@media(min-width:1062px){
+
+    .container-tecnologias{
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .imagen{
+        width: 200px;
+        border-radius: 20px;
+    
+    }
+
+  
+    .imagen:hover{
+        transform: rotate(11deg);
+        transition: .5s all;
+        cursor: pointer;
+    }
+    .gulp{
+        width: 100px;
+        display: grid;
+        place-items: center;
+    }
+     
+   
+   
+    
+
+}
+
+ 
+
+

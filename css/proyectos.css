@@ -1,0 +1,171 @@
+
+/*TABLET*/
+.containerg-proyectos .container-proyectos{
+    height: 100%;
+}
+.container-proyectos{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+}
+.img-proyecto{
+    width: 100%;
+    padding: 0 3rem;
+   filter: brightness(.6);
+   
+}
+.img-proyecto img{
+    border-radius: 20px;
+}
+.img{
+    border-radius: 18px;
+}
+.container-proyectos{
+    text-align: center;
+}
+.heading_proyectos{
+   
+    margin-top: 30px;
+    font-size:2rem;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 8px;
+}
+.proyecto{
+    margin-bottom: 50px;
+   
+}
+.visitar{
+    text-decoration: none;
+}
+
+.proyecto_datos{
+    background-color: rgb(233, 233, 233, 233);
+    width: 600px;
+}
+.proyecto_datos h2,p{
+    color: black;
+
+}
+
+/**/
+
+
+
+
+.container-visitar{
+    margin-top: -107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.364);
+    height: 100px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    width: 700px;
+    visibility: hidden;
+    transform: translateY(-100%);
+    
+   
+}
+
+
+
+
+/*PC*/
+@media(min-width:1411px){
+
+.proyectos{
+    height: 100%;
+}
+  
+
+.img-proyecto{
+ width: auto;
+ padding: 0 3rem;
+
+
+}
+
+.container-proyectos{
+    text-align: center;
+}
+
+.proyecto{
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.visitar{
+    text-decoration: none;
+}
+
+
+
+.img-proyecto:hover{
+    filter: brightness(1);
+    transform:scale(1.05);
+    cursor: pointer;
+    transition: 500ms ease;
+
+}
+
+.img-proyecto:hover .container-visitar{
+    filter: brightness(1);
+    transform:scale(1.05);
+    cursor: pointer;
+    visibility: visible;
+    transition: 2s ease;
+
+}
+
+.container-visitar{
+    margin-top: -107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.364);
+    height: 100px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    width: 1335px;
+    visibility: hidden;
+    transform: translateY(-100%);
+    
+   
+}
+.container-visitar:hover{
+    transform: translateY(0%);
+    transition: 2s ease;
+    
+}
+.container-proyectos h6{
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+}
+
+
+/*CELULAR*/
+@media(max-width:757px){
+
+
+
+    .img-proyecto{
+        width: 100%;
+        padding: 0;
+        display: grid;
+        place-items: center;
+    }
+
+.container-visitar{
+    width: 360px;
+}
+
+
+
+
+
+
+
+}

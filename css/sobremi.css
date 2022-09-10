@@ -1,0 +1,168 @@
+/*TABLET*/
+.containerg-sobremi{
+    /* scroll-snap-align: center;
+    scroll-snap-stop: always; */
+    position: relative;
+    z-index: 99;
+    height: 600px;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10000;
+
+}
+
+.container-sobremi{
+    height: 100%;
+    width: 100%;
+    
+}
+.grid-sobremi{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 50px;
+   
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.img-sobremi{
+    width: 600px;
+    display: none;
+  
+}
+.imagens{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.h2_sobremi,
+.p_sobremi{
+    color: white;
+    margin-top: 50px;
+}
+.p_sobremi{
+    
+    width: 600px;
+
+}
+
+.h2_sobremi{
+   
+    font-size: 2rem;
+}
+
+.texto-sobre{
+    width: 600px;
+    text-align: center;
+
+   
+  
+    
+}
+
+/*PC*/
+@media(min-width:1044px){
+
+
+
+    .containerg-sobremi{
+        /* scroll-snap-align: center;
+        scroll-snap-stop: always; */
+        position: relative;
+        z-index: 99;
+        height: 100%;
+    }
+    
+    #particles-js{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 10000;
+    
+    }
+    
+    .container-sobremi{
+        height: 100%;
+        width: 100%;
+        padding: 3rem;
+        
+    }
+    .grid-sobremi{
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    }
+    .img-sobremi{
+        width: 600px;
+        height: 400px;
+        display: block;
+    }
+    .imagens{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    .h2_sobremi,
+    .p_sobremi{
+        color: white;
+        margin-top: 50px;
+    }
+    .p_sobremi{
+        
+        width: 430px;
+    
+    }
+    
+    .h2_sobremi{
+       
+        font-size: 2rem;
+    }
+    
+    .texto-sobre{
+        width: 430px;
+        text-align: left;
+       
+      
+        
+    }
+    
+    
+
+}
+
+
+
+/**/
+@media(max-width:650px){
+
+    .texto-sobre{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+      
+        
+    }
+
+    .p_sobremi{
+        
+        font-size: .9rem;
+        width: 300px;
+    
+    }
+    
+
+}

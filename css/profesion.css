@@ -1,0 +1,205 @@
+
+.container_profesion{
+    height: 100%;
+    /* scroll-snap-align: center;
+    scroll-snap-stop: always; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+.nombre{
+    font-size: 23px;
+    /* background-color: rgba(0, 0, 0, 0.611); */
+    width: 220px;
+}
+.containerg-profesion{
+   height: 800px;
+   position: relative;
+
+}
+
+/* .backdrop{
+    height: 410px;
+    width: 400px;
+    background-color: #0303038b;
+   backdrop-filter: blur(10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 120px;
+   
+
+} */
+
+
+
+
+.img_profesion{
+    background-image: url(../Imagenes/imgprogramacion.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+
+    
+
+}
+
+.encabezado{
+    height: 250px;
+    /* scroll-snap-align: center;
+    scroll-snap-stop: always; */
+    
+ }
+
+
+.titulo{
+    margin: 0;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 5px;
+
+ 
+
+    
+}
+.imagenprof{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+
+
+}
+.container_profesion{
+    text-align: center;
+}
+.container_profesion h5{
+    font-size: 30px;
+    width: 220px;
+    /* background-color: rgba(0, 0, 0, 0.589); */
+}
+.foto_personal{
+    
+    border-radius: 155px;
+}
+.profesion_h5{
+    
+        font-size: 17px !important;
+
+        margin: 10px auto;
+}
+
+
+/*PC*/
+
+@media(min-width:491px){
+
+
+
+    .container_profesion{
+        height: 800px;
+        /* scroll-snap-align: center;
+        scroll-snap-stop: always; */
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+       
+    }
+    .nombre{
+        font-size: 37px;
+        /* background-color: rgba(0, 0, 0, 0.611); */
+        width: 370px;
+    }
+    .containerg-profesion{
+       height: 800px;
+       position: relative;
+    
+    }
+    
+    /* .backdrop{
+        height: 560px;
+        width: 430px;
+        background-color: #0303038b;
+       backdrop-filter: blur(10rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 120px;
+       
+    
+    } */
+    
+    
+    
+    
+    .img_profesion{
+        background-image: url(../Imagenes/imgprogramacion.jpg);
+        height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      
+    
+        
+    
+    }
+    
+    .encabezado{
+        height: 250px;
+        /* scroll-snap-align: center;
+        scroll-snap-stop: always; */
+        
+     }
+    
+    
+    .titulo{
+        margin: 0;
+        font-size: 6rem;
+        text-align: center;
+        letter-spacing: 5px;
+    
+     
+    
+        
+    }
+    .imagenprof{
+        margin-top: 20px;
+    height: 310px;
+    width: 310px;
+    
+    
+    
+    
+    
+    
+    }
+    .container_profesion{
+        text-align: center;
+    }
+    .container_profesion h5{
+        font-size: 30px;
+        width: 350px;
+        /* background-color: rgba(0, 0, 0, 0.589); */
+    }
+    .foto_personal{
+        
+        border-radius: 155px;
+    }
+    .profesion_h5{
+            font-size: 25px !important;
+            margin: 10px auto;
+    }
+
+    
+
+}
+
+
