@@ -22,8 +22,6 @@ function navegacionSmooth(){
             e.preventDefault();
             const valorSeccion = e.target.attributes.href.value;
            const seccion = document.querySelector(valorSeccion);
-
-           console.log(seccion);
          
             seccion.scrollIntoView({behavior: 'smooth'});
         })

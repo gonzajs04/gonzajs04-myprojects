@@ -39,7 +39,7 @@
 
 
 .img_profesion{
-    background-image: url(../Imagenes/imgprogramacion.jpg);
+    background-image: url(../Imagenes/imgprogramacion.webp);
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -49,6 +49,7 @@
     
 
 }
+
 
 .encabezado{
     height: 250px;
@@ -141,7 +142,7 @@
     
     
     .img_profesion{
-        background-image: url(../Imagenes/imgprogramacion.jpg);
+        background-image: url(../Imagenes/imgprogramacion.webp);
         height: 100%;
         background-size: cover;
         background-attachment: fixed;
