@@ -1,6 +1,7 @@
 .footer{
     background-color: black;
-    height: 70px;
+    padding: 1rem 0;
+
  
     
 }
@@ -8,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+   
 }
 .container-footer p{
     color: white;
