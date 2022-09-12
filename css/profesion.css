@@ -16,7 +16,7 @@
     width: 220px;
 }
 .containerg-profesion{
-   height: 800px;
+   height: 100%;
    position: relative;
 
 }
@@ -103,7 +103,7 @@
 
 
     .container_profesion{
-        height: 800px;
+        height: 100%;
         /* scroll-snap-align: center;
         scroll-snap-stop: always; */
         position: absolute;
@@ -119,7 +119,7 @@
         width: 370px;
     }
     .containerg-profesion{
-       height: 800px;
+        height: 100%;
        position: relative;
     
     }

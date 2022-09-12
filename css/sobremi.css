@@ -47,12 +47,9 @@
 .p_sobremi{
     color: white;
     margin-top: 50px;
+    width: 100%;
 }
-.p_sobremi{
-    
-    width: 600px;
 
-}
 
 .h2_sobremi{
    
@@ -119,12 +116,9 @@
     .p_sobremi{
         color: white;
         margin-top: 50px;
+        width: 100%;
     }
-    .p_sobremi{
-        
-        width: 430px;
-    
-    }
+ 
     
     .h2_sobremi{
        
@@ -160,7 +154,7 @@
     .p_sobremi{
         
         font-size: .9rem;
-        width: 300px;
+      width: 100%;
     
     }
     

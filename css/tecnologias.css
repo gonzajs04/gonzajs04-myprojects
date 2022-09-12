@@ -31,7 +31,15 @@
 
 
 
-
+/*TABLET*/
+@media(min-width:768px){
+    
+    .container-tecnologias{
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
 /*PC*/
 @media(min-width:1062px){

@@ -1,8 +1,11 @@
 
 /*TABLET*/
+
+
 .containerg-proyectos .container-proyectos{
     height: 100%;
 }
+
 .container-proyectos{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -31,10 +34,7 @@
     width: 100%;
     border-radius: 8px;
 }
-.proyecto{
-    margin-bottom: 50px;
-   
-}
+
 .visitar{
     text-decoration: none;
 }
@@ -49,8 +49,6 @@
 }
 
 /**/
-
-
 
 
 .container-visitar{
@@ -73,10 +71,11 @@
 
 
 /*PC*/
-@media(min-width:1411px){
+@media(min-width:1200px){
 
 .proyectos{
     height: 100%;
+    padding: 2rem 0;    
 }
   
 
