@@ -1,0 +1,35 @@
+.container-ubicacion{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, rgba(245, 245, 245, 0.905)  0%, white 100%);
+}
+.containerg-ubicacion{
+    height: 100%;
+    
+}
+.mapa{
+    width: 100%;
+}
+.container-mapa{
+    width: 100%;
+}
+.heading_localidad{
+    font-size: 2.6rem;
+    width: auto;
+   text-align: center;
+   color: rgb(37, 37, 37);
+}
+
+
+@media(min-width:700px){
+
+    .heading_localidad{
+        font-size: 3.5rem;
+        width: auto;
+    }
+    
+
+}

@@ -1,0 +1,73 @@
+
+.footer{
+    height: 400px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+
+}
+.img{
+    width: 300px;
+    
+    margin: 0 auto;
+}
+.logo-footer{
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+}
+.redes_p{
+    font-size: 16px;
+    margin: 0;
+}
+.container-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefono{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    
+}
+.telefono p{
+    padding-right: 10px;
+    color: white;
+    
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mail p{
+    font-size: 15px;
+    padding-right: 10px;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+.instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    
+}
+.instagram p{
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+}
+.iconoinsta{
+    height: 20px;
+    width: 20px;
+}
+.Copyright{
+    color: white;
+
+}
+p{
+    margin: 0;
+    
+}
