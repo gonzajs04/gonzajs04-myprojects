@@ -1,0 +1,76 @@
+.convertite{
+    padding-bottom: 20px;
+}
+.container-convertite p{
+    text-align:center;
+    margin: 0;
+}
+.container-convertite h2{
+    margin: 0;
+}
+
+.container-convertite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contacto{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 350px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.form-contacto input{
+    width: 100%;
+}
+.textarea-msg{
+    grid-column: 1/3;
+}
+.textarea-msg textarea{
+    width: 100%;
+}
+.form-advertencia{
+    margin: 0;
+    text-align: left !important;
+}
+.enviar-datos{
+    grid-column: 1/3;
+}
+.enviar-datos input{
+    width: 100%;
+    background-color: #96C93E;
+    border: none;
+    padding: .5rem 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-nombre{
+    grid-column: 1/3;
+}
+.input-apellido{
+    grid-column: 1/3;
+}
+
+@media(min-width:740px){
+
+    .form-contacto{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 350px 350px;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+    .input-nombre{
+        grid-column: 1/2;
+    }
+    .input-apellido{
+        grid-column: 2/3;
+    }
+
+   
+    
+
+}

@@ -1,0 +1,114 @@
+
+.oradores{
+    padding: 1rem 0;
+    
+   
+
+}
+.oradores p,h2{
+    text-align: center;
+    width: auto;
+}
+.oradores p{
+
+margin: 0;
+}
+
+.orador p{
+  
+    text-align: left;
+}
+.grid-oradores{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 1rem;
+    
+}
+
+.orador{
+    display: grid;
+   margin: 20px auto;
+    grid-template-columns: 350px;
+    grid-template-rows:350px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.orrador-parrafo{
+    padding: 1rem 1rem;
+}
+.orador-lenguajes{
+    display: flex;
+  
+}
+.orador-lenguajes p{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 1rem;
+    width: 75px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    padding: .1rem .5rem;
+    border-radius: 5px;
+}
+
+.orador-img img{
+    border-radius: 5px;
+}
+.orador h3{
+    margin: 0;
+    padding-left: 15px;
+}
+
+
+
+.JavaScript{
+    background-color: #FBC213;
+    color: black;
+
+
+}
+
+.React{
+    background-color: #189CAB;
+    color: white;
+
+}
+.Negocios{
+    
+    background-color: #6E6970;
+ 
+    color: white;
+}
+
+.Startups{
+    color: white;
+    background-color: #C63544;
+}
+
+
+@media(min-width:1071px){
+    .grid-oradores{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+        
+    }
+
+    .orador{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 350px;
+        grid-template-rows:350px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    
+
+}
+
+
+
+
