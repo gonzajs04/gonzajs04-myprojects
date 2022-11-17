@@ -69,23 +69,33 @@ width: 200px;
 }
 
 /**PRODUCTOS**/
-.containerg-productos{
-  height: 1500px;
-  margin-top: 30px;
 
- 
-}
+
 
 .container-productos{
     
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-column-gap: 70px;
-row-gap: 50px;
- 
+display: grid;
+place-content: center;
+row-gap: 2rem;
+padding: 2rem ;
+
+
+}
+
+
+/*TELEFONO*/
+
+@media(min-width:1100px){
+
+    .container-productos
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    column-gap: 70px;
+    row-gap: 50px;
+    }
     
-    
+
 }
 .card{
     width: 100%;
@@ -96,6 +106,7 @@ row-gap: 50px;
     border-bottom-right-radius: 18px;
     border-radius: 18px;
    
+    
    
 
 

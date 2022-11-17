@@ -37,7 +37,7 @@ areaMsg.addEventListener('input',leerInput);
  function leerInput(e){
 
    datos[e.target.id] = e.target.value;
-   console.log(datos);
+  
 
 }
 
@@ -89,37 +89,37 @@ function mostrarAlerta(msg, estado){
 }
 
 
-function mostrarError(msg){
+// function mostrarError(msg){
  
   
-    const error = document.createElement('H4');
-    error.textContent = msg;
-    error.classList.add('error');
-   form.appendChild(error);
+//     const error = document.createElement('H4');
+//     error.textContent = msg;
+//     error.classList.add('error');
+//    form.appendChild(error);
 
-   //desaparezca dsp de 3 segundos
-   setTimeout(()=>{
-    error.remove();
-   },5000)
+//    //desaparezca dsp de 3 segundos
+//    setTimeout(()=>{
+//     error.remove();
+//    },5000)
     
-}
+// }
 
-function mostrarAprobacion(msg){
+// function mostrarAprobacion(msg){
  
-     //creo H4 en html y lo guardo en  variable validacion
-    const validacion = document.createElement('H4');
-    //le agregamos el contenido del mensaje a la variable
-    validacion.textContent = msg;
-    //le agregamos una clase llamada validacion al H4
-    validacion.classList.add('validacion');
+//      //creo H4 en html y lo guardo en  variable validacion
+//     const validacion = document.createElement('H4');
+//     //le agregamos el contenido del mensaje a la variable
+//     validacion.textContent = msg;
+//     //le agregamos una clase llamada validacion al H4
+//     validacion.classList.add('validacion');
 
-    form.appendChild(validacion); //Le agrego al formulario el h4
+//     form.appendChild(validacion); //Le agrego al formulario el h4
 
-    //se elimina la validacion
-    setTimeout(()=>{
-        validacion.remove();
+//     //se elimina la validacion
+//     setTimeout(()=>{
+//         validacion.remove();
 
-    },5000);
+//     },5000);
 
 
-}
+// }

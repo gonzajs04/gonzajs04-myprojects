@@ -1,5 +1,7 @@
 /*EMPIEZA TABLET*/
-
+.encabezado{
+    position: relative;
+}
 
 #btn{
     visibility: hidden;
@@ -169,7 +171,7 @@
     z-index: 10000;
  background-color: #b9bac0a0;
  width: 70px;
- height: 800px;
+ height: 100%;
  padding: 6px 14px;
 }
 
@@ -500,7 +502,7 @@ margin: 0 20px;
     z-index: 10000;
  background-color: #b9bac0a0;
  width: 70px;
- height: 800px;
+ height: 100%;
  padding: 6px 14px;
 }
 
